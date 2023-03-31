@@ -3,4 +3,7 @@ return {
   opts = {
     -- ensure_installed = { "lua" },
   },
+  dependencies = {
+    "nvim-treesitter/nvim-treesitter-angular",
+  },
 }

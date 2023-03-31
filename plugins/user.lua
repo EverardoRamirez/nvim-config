@@ -9,5 +9,11 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
-  "nvim-treesitter/nvim-treesitter-angular",
+  {
+    "RishabhRD/nvim-cheat.sh",
+    dependencies = {
+      "RishabhRD/popfix",
+    },
+    keys = { { "<leader>kk", "<cmd>:Cheat<cr>" } },
+  },
 }
