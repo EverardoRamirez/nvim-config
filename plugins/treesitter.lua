@@ -4,6 +4,9 @@ return {
     -- ensure_installed = { "lua" },
   },
   dependencies = {
-    "nvim-treesitter/nvim-treesitter-angular",
+    {
+      "elgiano/nvim-treesitter-angular",
+      branch = "topic/jsx-fix",
+    },
   },
 }
