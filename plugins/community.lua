@@ -8,5 +8,6 @@ return {
   { import = "astrocommunity.colorscheme.tokyonight" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.motion.leap-nvim" },
+  { import = "astrocommunity.motion.harpoon" },
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
 }
